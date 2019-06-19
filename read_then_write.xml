@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tree>
+    <root>
+        <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="employee" job="Middle developer">
+            <age>35</age>
+            <id>1</id>
+            <name>Евгений</name>
+            <sex>MALE</sex>
+        </element>
+        <nodes>
+            <node_value>
+                <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="employee" job="Middle developer">
+                    <age>34</age>
+                    <id>2</id>
+                    <name>Марина</name>
+                    <sex>FEMALE</sex>
+                </element>
+                <nodes>
+                    <node_value>
+                        <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="employee" job="Middle developer">
+                            <age>7</age>
+                            <id>6</id>
+                            <name>Алина</name>
+                            <sex>FEMALE</sex>
+                        </element>
+                        <nodes/>
+                    </node_value>
+                </nodes>
+            </node_value>
+            <node_value>
+                <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="employee" job="Middle developer">
+                    <age>14</age>
+                    <id>3</id>
+                    <name>Кирилл</name>
+                    <sex>MALE</sex>
+                </element>
+                <nodes/>
+            </node_value>
+            <node_value>
+                <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="employee" job="Middle developer">
+                    <age>18</age>
+                    <id>4</id>
+                    <name>Елена</name>
+                    <sex>FEMALE</sex>
+                </element>
+                <nodes/>
+            </node_value>
+            <node_value>
+                <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="employee" job="Middle developer">
+                    <age>26</age>
+                    <id>5</id>
+                    <name>Андрей</name>
+                    <sex>MALE</sex>
+                </element>
+                <nodes/>
+            </node_value>
+        </nodes>
+    </root>
+</tree>

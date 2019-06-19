@@ -31,7 +31,7 @@ public class Main {
 //        JaxbTreeReader<Employee> reader = new JaxbTreeReader<>();
 //        tree=reader.read(inputStream,tree.getClass(),Employee.class);
 //        tree.restoreParents();
-//        new JaxbTreeWriter<Employee>().write(tree,"anus.xml");
+//        new JaxbTreeWriter<Employee>().write(tree,"read_then_write.xml");
 //        System.out.println(tree.toString());
 //        System.out.println(Employee.getUsersCount());
 //        reader.read(inputStream,tree.getClass(),Employee.class);
